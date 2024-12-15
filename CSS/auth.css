@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    background: linear-gradient(148deg,rgb(0, 213, 199),#1c0080);
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    width: 40%;
+    margin-top: 50px;
+}
+.row {
+    background-color: white;
+}
