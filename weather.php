@@ -9,7 +9,7 @@
         } else {
             $city = htmlspecialchars($_GET['city']);
             $city = urlencode($city); // Encode the city name to handle spaces
-            $apiKey = "8a9d47b043aa487cd1ee8b410f50c45b";
+            $apiKey = "Yor API Key";
             $apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=".$city."&appid=".$apiKey;
 
             $apiData = @file_get_contents($apiUrl);
